@@ -6,15 +6,13 @@ Cognifyz Data Analysis internship project: restaurant dataset par Level 1–3 no
 This repository contains the deliverables for a multi-level restaurant analytics project completed during the Cognifyz Data Analysis internship, including exploratory analysis, visualization, and insights across Level 1–3 tasks.
 
 ## Repository structure
-- docs/
   - Data-Analysis.pdf — Internship brief, task list, and submission notes.
-- notebooks/
   - Level_1_Task.ipynb — Top cuisines, city analysis, price range distribution, online delivery impact.
   - Level_2_Task.ipynb — Cuisine combinations, geographic mapping, restaurant chains analysis.
   - Level_3_Task.ipynb — Review NLP, votes correlation, price vs. online delivery and table booking.
-- README.md — Project overview, setup, and results.
-- .gitignore — Jupyter and Python cache ignores.
-
+  - README.md — Project overview, setup, and results.
+  -- map.html _ map
+    
 ## Environment
 - Python 3.9+ recommended
 
@@ -23,9 +21,8 @@ This repository contains the deliverables for a multi-level restaurant analytics
 - numpy
 - seaborn
 - matplotlib
-- scikit-learn
-- nltk or spacy (optional)
-- folium or geopandas (optional for maps)
+- nltk or spacy 
+- folium or geopandas 
 
 ### Create a virtual environment and install
 - macOS/Linux:
@@ -40,8 +37,6 @@ Optional requirements.txt:
 - numpy
 - matplotlib
 - seaborn
-- scikit-learn
-- nltk
 - folium
 
 ## How to run
@@ -79,5 +74,3 @@ This project is for internship demonstration purposes. Check organization polici
 ## Contact
 For questions or collaboration, open an issue on this repository.
 
-## Optional: One-command setup files
-If needed, a requirements.txt and minimal environment.yml can be generated from the notebooks to make setup one-command.
